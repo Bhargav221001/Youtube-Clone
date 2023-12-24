@@ -1,0 +1,34 @@
+.sidebar{
+    position: fixed;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    width: 72px;
+    background-color: white;
+    z-index: 200;
+       
+}
+.sidelink{
+    display: flex;
+    height: 75px;
+    justify-content: center; /*horizontal centering */
+    align-items: center;   /* vertical centering*/
+    flex-direction: column;   /*  while using flex-direction column the above two functions are interchanged */
+    cursor: pointer;
+}
+.sidelink:hover{
+    background-color: rgb(237, 237, 237);
+}
+
+.sidelink img{
+/* for center alignment use flex box */
+   align-items: center;
+   height: 25px;
+   margin-bottom: 4px;
+}
+
+
+.sidelink div{
+    font-family: Roboto,Arial;
+    font-size: 10px;
+}
